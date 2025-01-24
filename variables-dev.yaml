@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-dev.devopspractice123.online  # submit your host
+REDIS_HOST: redis-dev.devopspractice123.online 
+MYSQL_HOST: mysql-dev.devopspractice123.online 
+RABBITMQ_HOST: rabbitmq-dev.devopspractice123.online 
+CATALOGUE_HOST: catalogue.app-dev.devopspractice123.online
+USER_HOST: user.app-dev.devopspractice123.online
+CART_HOST: cart.app-dev.devopspractice123.online 
+SHIPPING_HOST: shipping.app-dev.devopspractice123.online 
+PAYMENT_HOST: payment.app-dev.devopspractice123.online 
+DISPATCH_HOST: dispatch.app-dev.devopspractice123.online
