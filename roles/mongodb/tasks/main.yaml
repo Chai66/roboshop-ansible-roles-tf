@@ -10,7 +10,7 @@
 #     #update_cache: yes
 
 - name: Install mongodb
-  ansible.builtin.command: apt install mongodb-org -y
+  ansible.builtin.command: dnf install mongodb-org -y
     # name: mongodb-org
     # state: present
 
