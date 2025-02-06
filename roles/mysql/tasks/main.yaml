@@ -20,4 +20,15 @@
 
 - name: setup root password # Below command is ansible refers to ssm parameter store for the manually store id
   ansible.builtin.command: "mysql_secure_installation --set-root-pass {{ lookup
-  ('aws_ssm', '/roboshop/{{env}}/mysql_root_pass', region='us-east-1' decrypt=True ) }}"
+  ('amazon.aws.ssm_parameter', '/roboshop/{{env}}/mysql_root_pass', region='us-east-1' decrypt=True ) }}"
+
+# - name: Install MySQL Server
+#   hosts: localhost
+#   tasks:
+#     - name: Retrieve MySQL root password from SSM Parameter Store
+#       set_fact:
+#         mysql_root_password: "{{ lookup('amazon.aws.ssm_parameter', '/roboshop/{{ env }}/mysql_root_pass', region='us-east-1', with_decryption=true) }}"
+
+#     - name: Run mysql_secure_installation
+#       ansible.builtin.command:
+#         cmd: "mysql_secure_installation --set-root-pass {{ mysql_root_password }}"
