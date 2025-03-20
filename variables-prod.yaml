@@ -1,10 +1,10 @@
-MONGODB_HOST: mongodb-prod.devopspractice123.online  # submit your host
-REDIS_HOST: redis-prod.devopspractice123.online 
-MYSQL_HOST: mysql-prod.devopspractice123.online 
-RABBITMQ_HOST: rabbitmq-prod.devopspractice123.online 
-CATALOGUE_HOST: catalogue-prod.devopspractice123.online
-USER_HOST: user-prod.devopspractice123.online
-CART_HOST: cart-prod.devopspractice123.online 
-SHIPPING_HOST: shipping-prod.devopspractice123.online 
-PAYMENT_HOST: payment-prod.devopspractice123.online 
-DISPATCH_HOST: dispatch-prod.devopspractice123.online
+MONGODB_HOST: mongodb-prod.devopspilot.online  # submit your host
+REDIS_HOST: redis-prod.devopspilot.online 
+MYSQL_HOST: mysql-prod.devopspilot.online 
+RABBITMQ_HOST: rabbitmq-prod.devopspilot.online 
+CATALOGUE_HOST: catalogue-prod.devopspilot.online
+USER_HOST: user-prod.devopspilot.online
+CART_HOST: cart-prod.devopspilot.online 
+SHIPPING_HOST: shipping-prod.devopspilot.online 
+PAYMENT_HOST: payment-prod.devopspilot.online 
+DISPATCH_HOST: dispatch-prod.devopspilot.online
